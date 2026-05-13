@@ -570,6 +570,31 @@ html {
   #contact {
     scroll-margin-top: 22px;
   }
+  .section {
+  padding: 72px 0;
+}
+
+.section-header {
+  margin-bottom: 32px;
+}
+
+.section-header h2 {
+  font-size: clamp(2.6rem, 8vw, 4rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+}
+
+.body-copy {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.video-block,
+.gallery-grid,
+.photo360-frame,
+.video360-frame {
+  margin-top: 24px;
+}
 }
 .site-header a[aria-label="Compass"],
 .site-header a[aria-label="Compass"] img {

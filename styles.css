@@ -570,30 +570,36 @@ html {
   #contact {
     scroll-margin-top: 22px;
   }
-  .section {
-  padding: 72px 0;
+ .section {
+  padding: 46px 0;
 }
 
 .section-header {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .section-header h2 {
-  font-size: clamp(2.6rem, 8vw, 4rem);
-  line-height: 0.95;
-  letter-spacing: -0.04em;
+  font-size: clamp(2.35rem, 9vw, 3.25rem);
+  line-height: 0.94;
+  letter-spacing: -0.045em;
+}
+
+.lead {
+  font-size: 1.18rem;
+  line-height: 1.65;
 }
 
 .body-copy {
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
 .video-block,
 .gallery-grid,
 .photo360-frame,
 .video360-frame {
-  margin-top: 24px;
+  margin-top: 18px;
+
 }
 }
 .site-header a[aria-label="Compass"],
